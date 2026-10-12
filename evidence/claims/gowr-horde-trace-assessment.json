@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "gowr-horde-trace-assessment",
+  "revision": 1,
+  "state": "observed",
+  "confidence": "medium",
+  "scope": { "game": "gears-of-war-reloaded", "platform": "pc-steam-build-20087529", "build": null, "root": "installed game files and six decoded core packages" },
+  "claim": "The recorded scan found no decoded Horde-mode files, config, package names, imports, or exports; observed Horde strings were lore/localization or isolated raw-byte traces rather than a usable mode implementation.",
+  "evidence": [{ "kind": "legacy-evidence", "ref": "evidence/legacy-snapshots/gow_reloaded_horde_trace_scan_2026_08_10.md" }, { "kind": "legacy-data", "ref": "evidence/legacy-snapshots/gow_reloaded_horde_trace_scan_2026_08_10_summary.json" }],
+  "limitations": ["Only six core packages received decoded name/import/export inspection.", "Absence of evidence is not proof that no dormant implementation exists anywhere."]
+}

@@ -1,0 +1,920 @@
+{
+  "schema": "gowr_legacy_migration_v1",
+  "itemCount": 130,
+  "countsByKind": {
+    "legacy-evidence": 6,
+    "legacy-probe": 124
+  },
+  "items": [
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_blend_export_image_paths.py",
+      "destination": "research/legacy-probes/gowreloaded_blend_export_image_paths.py",
+      "destinationBytes": 1895,
+      "destinationSha256": "9699fb692315cd61be0cb10fbfa35eb6e55c7a5999cfb3283e296c212f1870cf"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_blend_material_preview_smoke.py",
+      "destination": "research/legacy-probes/gowreloaded_blend_material_preview_smoke.py",
+      "destinationBytes": 1714,
+      "destinationSha256": "f37f5f40cae23c57f1f2c8b9261ae1dd2567cd80aef9ecc6efee5f8b3de94a8b"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_blend_relink_viewport_pngs.py",
+      "destination": "research/legacy-probes/gowreloaded_blend_relink_viewport_pngs.py",
+      "destinationBytes": 3732,
+      "destinationSha256": "c81c380b1fcd941de0534e31fcf8efa47959eda5f1e67e46b3c63bb544d2e411"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_blend_validate_render.py",
+      "destination": "research/legacy-probes/gowreloaded_blend_validate_render.py",
+      "destinationBytes": 2447,
+      "destinationSha256": "b5344dba21addb0a982ab74d49e53699a1340f9e9f30c89ba0c54b28524379fb"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_boundary_decode.py",
+      "destination": "research/legacy-probes/gowreloaded_boundary_decode.py",
+      "destinationBytes": 9832,
+      "destinationSha256": "438da847cdfdcb9f9e9ed05bd32aa50017b3b72b97fefac8df66b2d6dff31aa2"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_extend_viewport_png_aliases_from_material_cache.py",
+      "destination": "research/legacy-probes/gowreloaded_extend_viewport_png_aliases_from_material_cache.py",
+      "destinationBytes": 4384,
+      "destinationSha256": "399443e8a204deedeb2cdb3845ae754b4ce0ca1ea38de0e77499c01632a649d7"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_alpha_decals_grass_bsp_fix.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_alpha_decals_grass_bsp_fix.py",
+      "destinationBytes": 31186,
+      "destinationSha256": "d79f2e83304e945998c29fd7cfe10525f189b64e410dc83b58ef90ef8759fe93"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_apply_bsp_surface_uvs.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_apply_bsp_surface_uvs.py",
+      "destinationBytes": 13588,
+      "destinationSha256": "239dd7b4e852a28fccf0f90418e3b0f165c3bf7ab72611a344639a73fa9be5bd"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_apply_indexed_uv_domain_v2.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_apply_indexed_uv_domain_v2.py",
+      "destinationBytes": 13784,
+      "destinationSha256": "0d4e4456cacb8ad0fca1e352fac7e73ecb108f18e92255a7bbdddbfe88ac7a46"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_apply_lighting_skybox_pass.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_apply_lighting_skybox_pass.py",
+      "destinationBytes": 27403,
+      "destinationSha256": "1d618991e1cc4559585ef3c407f36ed33210fca29843efd03a450a3579264001"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_apply_native_index_loop_uvs.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_apply_native_index_loop_uvs.py",
+      "destinationBytes": 15442,
+      "destinationSha256": "6d137ecaefc8d843d8bb666b4dcd5f7f816ef8ba2b63795c770816e85a10d651"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_apply_native_lighting_done.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_apply_native_lighting_done.py",
+      "destinationBytes": 22119,
+      "destinationSha256": "63f1ce8d5b872aaab5818ca2fb2b62beac73e73c869f51b0f0aa69e991e491e6"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_apply_previewed_skybox_repair.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_apply_previewed_skybox_repair.py",
+      "destinationBytes": 19204,
+      "destinationSha256": "2946d1e642cf66fa813534e1d6a823578db0d733607250fcd7cbd7b678e4422a"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_apply_previewed_water_repair.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_apply_previewed_water_repair.py",
+      "destinationBytes": 45579,
+      "destinationSha256": "a127de4ba37ba8c8e9aca3cc211facd9d759f04921a4309206a0ce19de5bee49"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_apply_reconstructed_normals.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_apply_reconstructed_normals.py",
+      "destinationBytes": 6241,
+      "destinationSha256": "86f4ddfff83bf78568b1c1a659bf9ac56b8eb9b96a531e683c6a6f85efe7f993"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_apply_render_uv_breakthrough.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_apply_render_uv_breakthrough.py",
+      "destinationBytes": 15482,
+      "destinationSha256": "7b5b2026f76b5046f7092a1cdcdb1471904494b690d282d5d59208bcd27c596a"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_apply_repo_uvstream_payload.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_apply_repo_uvstream_payload.py",
+      "destinationBytes": 19970,
+      "destinationSha256": "065cc67fff27360d3ad2538d323663df8d4bc9700203421058d1862ee4687c96"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_apply_staticmesh_uv_channels.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_apply_staticmesh_uv_channels.py",
+      "destinationBytes": 9252,
+      "destinationSha256": "f9d8cd23dfc1c3b4af76ad1e93c3ba9cfe877d60020f365e45a9bd8f84818a84"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_apply_strict_staticmesh_uv0.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_apply_strict_staticmesh_uv0.py",
+      "destinationBytes": 15925,
+      "destinationSha256": "e55a9e62eddff4438402d36bc931e3f1e247e578b632bc7eb9c5c5059962b8e1"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_apply_uv_material_placement_fix.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_apply_uv_material_placement_fix.py",
+      "destinationBytes": 14034,
+      "destinationSha256": "45551ea3b2f0da8999237e7c651e4aeee81fe5ddcbc956c01d9717795b7aa663"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_audit_visible_texture_formats.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_audit_visible_texture_formats.py",
+      "destinationBytes": 3278,
+      "destinationSha256": "8aafe8d56ec21e64352753704b37ff3fb253735a88b36bb75a225b72867282c2"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_bsp_model_placement_audit.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_bsp_model_placement_audit.py",
+      "destinationBytes": 8308,
+      "destinationSha256": "34b8ccd0783e6bbf54601e48cd0fc882ed43794c8832aa748edb476130603344"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_bsp_surface_probe.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_bsp_surface_probe.py",
+      "destinationBytes": 5632,
+      "destinationSha256": "2efafc785d430585e4c365c4240d91d93f481c7d7f4b3eb6237a85de383714c9"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_bsp_surface_probe_decompressed.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_bsp_surface_probe_decompressed.py",
+      "destinationBytes": 10238,
+      "destinationSha256": "83b9444403a9060d8a75a3e2ca2238ac96f252a41c22c770271e9ca3e1fdded4"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_bsp_visibility_repair.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_bsp_visibility_repair.py",
+      "destinationBytes": 7642,
+      "destinationSha256": "718df91df100126f1a89957a010da235232c4aab92d46727726f67eeaa0a40f5"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_bsp_visibility_truth_pass.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_bsp_visibility_truth_pass.py",
+      "destinationBytes": 10851,
+      "destinationSha256": "6a6fcd1d8888c70e059ffb02adf94408a453deea5b6082ca445e8aef3e020ee4"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_build_repo_layout_uv_proof.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_build_repo_layout_uv_proof.py",
+      "destinationBytes": 4198,
+      "destinationSha256": "279477f67489c5f102cae539760b3a58de6f04daf890fa15e41f31616eb1407d"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_build_repo_variant_uv_proof.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_build_repo_variant_uv_proof.py",
+      "destinationBytes": 6441,
+      "destinationSha256": "9e88b9864d39a2b7248dfe7b25be93c6a0ec29b93a0bc488ddc1f268aee8b603"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_convert_visible_sky_dds_to_png.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_convert_visible_sky_dds_to_png.py",
+      "destinationBytes": 3789,
+      "destinationSha256": "aaf176ae0f158b2d911db813a188898dd47547a64eee5f1046dc8c90244c65cb"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_current_scene_truth_audit.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_current_scene_truth_audit.py",
+      "destinationBytes": 8258,
+      "destinationSha256": "d7d2465fd307487557f162ba1b8fdd3b8718ad55217fe519b7f10b4d665a4150"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_decode_native_water_ocean_textures.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_decode_native_water_ocean_textures.py",
+      "destinationBytes": 29963,
+      "destinationSha256": "df341560b184a1e11a94381e29c717e181b7d4aee881b663f4913fdf74070eb2"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_deep_texture_failure_audit.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_deep_texture_failure_audit.py",
+      "destinationBytes": 11859,
+      "destinationSha256": "b2df11bbca7e1a6391707ca3bffc600fb18edaf00b990f82db4e6c47254be93f"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_export_render_uv_payload.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_export_render_uv_payload.py",
+      "destinationBytes": 16357,
+      "destinationSha256": "e47c341a54f8d30d4f1661d0dfd83cec80f139d4b8f8d9ad3b63f26afd6142f0"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_export_render_uv_payload_decompressed.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_export_render_uv_payload_decompressed.py",
+      "destinationBytes": 1966,
+      "destinationSha256": "ca8cd8072c2c1dd0b5c488085f947d109dcdae7d5b0b191a6c281b7cb4b26d9d"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_export_uv_channels.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_export_uv_channels.py",
+      "destinationBytes": 8907,
+      "destinationSha256": "a7272159b7cc89af6c130989614f3e0ae8961469faacbf2ecd286af175b78cfe"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_force_visible_skybox.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_force_visible_skybox.py",
+      "destinationBytes": 17565,
+      "destinationSha256": "87afb1dc51751d9a290b5bacf895673fbdf5568fd3d7127bc5fd669bd43c7b7b"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_hide_nonvisual_collision_refs.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_hide_nonvisual_collision_refs.py",
+      "destinationBytes": 3766,
+      "destinationSha256": "64ce5f5575639ff789674e9394d63ece6c842ec95be1f5844e581317b8cce65e"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_hide_redundant_model2_bsp.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_hide_redundant_model2_bsp.py",
+      "destinationBytes": 6313,
+      "destinationSha256": "830de3de28e7af8c662ba07dd37d461e2085a9a81281e561ec2f5b0aa0268ad0"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_indexed_uv_domain_probe.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_indexed_uv_domain_probe.py",
+      "destinationBytes": 16525,
+      "destinationSha256": "54be35ae6666cbd154451b63e6f4a45f35e321fa73d0357fd43ec39e8a5f0742"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_indexed_uv_domain_probe_blender.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_indexed_uv_domain_probe_blender.py",
+      "destinationBytes": 773,
+      "destinationSha256": "a96150368fd3b620a890c6e41f00f0e352f29a18ca7e1184f66849afddffd5ea"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_indexed_uv_domain_probe_decompressed.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_indexed_uv_domain_probe_decompressed.py",
+      "destinationBytes": 2215,
+      "destinationSha256": "38237eeeab35391f2fe0c1e5a22307d429b3f7f54dc0b58d828fdff22af30cdc"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_inline_proxy_alpha_threshold_fix.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_inline_proxy_alpha_threshold_fix.py",
+      "destinationBytes": 9592,
+      "destinationSha256": "58dd7624225e03bf2e299b52d3153aae1e90d7bf76598cde4ac974447bad16ec"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_material_viewport_hardening.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_material_viewport_hardening.py",
+      "destinationBytes": 12731,
+      "destinationSha256": "b01556be960efef3e1881fac51899362c8d7c09139a613797351da303dfd1ff0"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_model2_bsp_texel_uv_fix.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_model2_bsp_texel_uv_fix.py",
+      "destinationBytes": 35879,
+      "destinationSha256": "54b856cbaf50149894a9248c9e816972a900710a987c670380ba4363ea82dcef"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_model2_bsp_texel_uv_fix_v2.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_model2_bsp_texel_uv_fix_v2.py",
+      "destinationBytes": 2056,
+      "destinationSha256": "84ec09bd6fa04de69c695d57b73e6846201446e6eac66e0a24e9eecd7fa29209"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_model2_main_bsp_native_uv_repair.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_model2_main_bsp_native_uv_repair.py",
+      "destinationBytes": 13084,
+      "destinationSha256": "bd507c17d675d665aafa739eb1ea0e963480fc6422597636c5e68d6af757db5d"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_model2_multimaterial_bsp_fix.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_model2_multimaterial_bsp_fix.py",
+      "destinationBytes": 33719,
+      "destinationSha256": "a8521f764b5466f53368a6a045dc291158ddfa3185d692e1a550a1ce0aff09de"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_model2_prepare_source_shader_textures.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_model2_prepare_source_shader_textures.py",
+      "destinationBytes": 4309,
+      "destinationSha256": "9aea4333a27ace58280561693cb7896768487c6a3097f3bf4f9fa8547dbb9513"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_model2_render_vertexbuffer_probe.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_model2_render_vertexbuffer_probe.py",
+      "destinationBytes": 14254,
+      "destinationSha256": "26ba6234d65b141de2c58c92da9477fdef8d2eaa88de4e5228daa3e5908620a5"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_model2_render_vertexbuffer_probe_v2.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_model2_render_vertexbuffer_probe_v2.py",
+      "destinationBytes": 11165,
+      "destinationSha256": "b45b02dfea866842e81cce145f5c3632e8c84ab10abbf8456f7e9b39b7eaf786"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_model2_renderbuffer_delta_fix.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_model2_renderbuffer_delta_fix.py",
+      "destinationBytes": 41109,
+      "destinationSha256": "ea3076c4b0522b534354f04db35337aa31cee2c38aa17728356ad2681425bbbb"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_model2_renderbuffer_texel_uv_fix.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_model2_renderbuffer_texel_uv_fix.py",
+      "destinationBytes": 16446,
+      "destinationSha256": "9702b8cc6db58a654b1b474577e1c6658afdfac0b0e5cfd3612f53f1bb6d2e67"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_model2_source_shader_repair.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_model2_source_shader_repair.py",
+      "destinationBytes": 16769,
+      "destinationSha256": "b67e648021dc24e1c57d7d8d227a1087cf62631cc251eb6315b6a8d40b57eba8"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_model2_stairtech_material_graph_probe.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_model2_stairtech_material_graph_probe.py",
+      "destinationBytes": 8420,
+      "destinationSha256": "42cab09a76301531675b3973282f45e6b616fe09c198832cde47af41fef45133"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_model2_visibility_diff_render.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_model2_visibility_diff_render.py",
+      "destinationBytes": 9034,
+      "destinationSha256": "8b10abd847266cee8b97211115ffd700b1e995bbcb2350afd70feb507e9e6839"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_model2_visual_policy.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_model2_visual_policy.py",
+      "destinationBytes": 6591,
+      "destinationSha256": "b2b1fd157cac9331e6f7c8c2f64807c2cbd38bf32d9deb36c1016efd7d9609a6"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_modelcomponent_ref_probe.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_modelcomponent_ref_probe.py",
+      "destinationBytes": 6921,
+      "destinationSha256": "60f7a5ac0fbf179998fa82ab06d46455c4bc630f16dbba307de3356ed9046eac"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_modelcomponent_visibility_probe.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_modelcomponent_visibility_probe.py",
+      "destinationBytes": 6369,
+      "destinationSha256": "93a4cef2119c1bc0f0481182089c56246f8911039659fa56961fc0a55b8d98c3"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_native_lighting_extract.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_native_lighting_extract.py",
+      "destinationBytes": 14297,
+      "destinationSha256": "c4866bf14893f0843ebbc3771ddb62eecac5cbc108d505df66f324a87f3286c2"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_normal_map_channel_audit.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_normal_map_channel_audit.py",
+      "destinationBytes": 2170,
+      "destinationSha256": "34e42a54686c595296d8043c7b3e9c549a8e966734f946976df741c1b8172321"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_normalize_visible_staticmesh_uv_source_render.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_normalize_visible_staticmesh_uv_source_render.py",
+      "destinationBytes": 7595,
+      "destinationSha256": "f4c4cebbff6e68247c776ad068335e8e2d73a9fb1248ca2f554bf951c2a8da23"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_postprocess_blend.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_postprocess_blend.py",
+      "destinationBytes": 18764,
+      "destinationSha256": "93cde87a75f51d16d45b91e864da77725d3316cf81a3610e5b94c3e3b1d6c9d8"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_prepare_cached_textured_scene.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_prepare_cached_textured_scene.py",
+      "destinationBytes": 16818,
+      "destinationSha256": "e614b3d620641bb74d18609c5d88a298ecb4fa397c744fc96435988636e7f9e3"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_probe_dds_load.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_probe_dds_load.py",
+      "destinationBytes": 2666,
+      "destinationSha256": "4b92b1961de5ebd7d747589bad2c43095d9f877b7f64236ac391307d30130e7f"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_probe_materials.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_probe_materials.py",
+      "destinationBytes": 2024,
+      "destinationSha256": "bf856319b236bc06af7821a3389a07a85d73388f50d5015cd321e41ae2e5e4db"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_probe_static_uvstream_metadata.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_probe_static_uvstream_metadata.py",
+      "destinationBytes": 5541,
+      "destinationSha256": "d4c5aeb527647c2a23fcdc316551f496e80c2abc3e6bbb58aad8bf0c7b9680d2"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_query_material_objects.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_query_material_objects.py",
+      "destinationBytes": 1812,
+      "destinationSha256": "053b7c6327c96b9fa3d37f22233ba2c46645c64baacbf4c70ee4cb3348125167"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_reconstruct_dxn_normals.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_reconstruct_dxn_normals.py",
+      "destinationBytes": 3658,
+      "destinationSha256": "430534bd42e9c2635e5b3ee741147c53a5bd21495f44c1d1c3d8073c6eaffe28"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_reconstruct_dxn_normals_short.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_reconstruct_dxn_normals_short.py",
+      "destinationBytes": 3799,
+      "destinationSha256": "78d8ecefc869d14965f6baa13d245ff2f5d8e68f7cdbf08d8b82ff383e9a73af"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_refine_water_vista_split.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_refine_water_vista_split.py",
+      "destinationBytes": 42937,
+      "destinationSha256": "0371e43a4f653f62fc31d5ace621855d492a3a8c10fe950a560962b10c0cd14a"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_relink_sky_bg_png.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_relink_sky_bg_png.py",
+      "destinationBytes": 2746,
+      "destinationSha256": "fc80aeb1a366c28df4d04467dc3804229cecc3928e14f41425308298a6e000ee"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_render_bsp_truth_preview.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_render_bsp_truth_preview.py",
+      "destinationBytes": 6805,
+      "destinationSha256": "61b6a72efcd933edadeb7262821231a722ef03dcc383a467366e50cbd0f81ac2"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_render_diffuse_only_texture_targets.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_render_diffuse_only_texture_targets.py",
+      "destinationBytes": 13756,
+      "destinationSha256": "b7349715242d92137623f3704878820ea8e4268f8526f92344128725af56dea5"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_render_isolated_texture_targets.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_render_isolated_texture_targets.py",
+      "destinationBytes": 7035,
+      "destinationSha256": "1c1aea361e8324da48df5400d0f9924adb4377d93472f713fb59d74d07b93c94"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_render_staticmesh_uv_restore_preview.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_render_staticmesh_uv_restore_preview.py",
+      "destinationBytes": 8235,
+      "destinationSha256": "0fe65a9d892f80837fba8f6b46e263e6d97aafe591e2729638036870903ca8bb"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_render_uv_link_audit.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_render_uv_link_audit.py",
+      "destinationBytes": 5927,
+      "destinationSha256": "f391982fb364a52832841777ec7a00f356f7d1e148afe42bb720ef6914198a91"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_repair_bsp_model2_native_render.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_repair_bsp_model2_native_render.py",
+      "destinationBytes": 27696,
+      "destinationSha256": "cfa0d3454beb610505954653ede02558353d9277782c1e69e8dab90e8cf701e0"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_repair_bsp_model_origins.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_repair_bsp_model_origins.py",
+      "destinationBytes": 10099,
+      "destinationSha256": "20cbc3d108e3a03f56d5fca7d9961042f4aa28fa764ec7b5473076e89e14301b"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_repair_bsp_model_origins_v2.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_repair_bsp_model_origins_v2.py",
+      "destinationBytes": 12082,
+      "destinationSha256": "550114d5f203d8f78f87cac894163024a8b324e7494b00f40742b4ea06170fca"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_repair_floor_puddle_shader.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_repair_floor_puddle_shader.py",
+      "destinationBytes": 4284,
+      "destinationSha256": "e5ca66971fe25745a322dd48969dca7c5a5f27c705e1b54d966c23d9756ac480"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_repair_inline_asset_fallback_materials.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_repair_inline_asset_fallback_materials.py",
+      "destinationBytes": 13548,
+      "destinationSha256": "f8634b4e38dff9a181d3302fd7c9e2f66bf1325f986a920e4e64bc3dafc4f94b"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_repair_inline_masked_proxy_materials.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_repair_inline_masked_proxy_materials.py",
+      "destinationBytes": 9889,
+      "destinationSha256": "9bbce8d27981871c4c93f8da634cd9b95c237f9dcc2f29bd7160970f9cff175f"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_repair_inline_proxy_cards.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_repair_inline_proxy_cards.py",
+      "destinationBytes": 16188,
+      "destinationSha256": "71b43e188db4290a6eeaeb22ecdde59f1b02421a1d3f56f8e97177c15cc82597"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_repair_remaining_visual_materials.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_repair_remaining_visual_materials.py",
+      "destinationBytes": 16482,
+      "destinationSha256": "6acaee464f855681f5242d044db836e6fcc0118c5e88182d540d1aa8c1a7d1bb"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_repair_skybox_game_accurate.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_repair_skybox_game_accurate.py",
+      "destinationBytes": 19951,
+      "destinationSha256": "a184773e926492224e8900290c43fce8e17556bb0556840a1bb5b5954ae21e67"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_repair_staticmesh_materials.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_repair_staticmesh_materials.py",
+      "destinationBytes": 23320,
+      "destinationSha256": "785fdb3afd7d9c9a4160bf9f683d36bca854b5342603a4d5b66f13607e145543"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_restore_first_texcoord_render_uv.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_restore_first_texcoord_render_uv.py",
+      "destinationBytes": 14959,
+      "destinationSha256": "242e49970339cf05007e2c6223b31c9bd9de0d0df0b4f3ab379933d68f613c8b"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_restore_gowu_native_uvs.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_restore_gowu_native_uvs.py",
+      "destinationBytes": 24626,
+      "destinationSha256": "ab4f22916843826903332042e3fccc198c7e5923d8272044660e18afeca7b968"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_restore_png_material_images.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_restore_png_material_images.py",
+      "destinationBytes": 14826,
+      "destinationSha256": "4976b1ea6ff8e67ceb0ee15efd6dc26499ce7a7ae132050cdcd607e779f5615d"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_scene_texture_audit.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_scene_texture_audit.py",
+      "destinationBytes": 4883,
+      "destinationSha256": "4072de2cdda33f3a065b4ae0498b3732f4fdb40922c8b1842b18b1a87e455deb"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_shared_material_uv_route_audit.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_shared_material_uv_route_audit.py",
+      "destinationBytes": 10362,
+      "destinationSha256": "dfab1f3a419a608b98dcde412cb2217dd4c60b5fa8ac2e6c2a0207789ba0ea4a"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_staticmesh_buffer_probe.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_staticmesh_buffer_probe.py",
+      "destinationBytes": 6803,
+      "destinationSha256": "b2b2898f18357ce54ec316716fc8f2a77cff8fc9b1ab76f5fb2c990665f3be73"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_summarize_uv_proof.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_summarize_uv_proof.py",
+      "destinationBytes": 2941,
+      "destinationSha256": "3779d4d0e0b0203fe41927b392b356e1d3a49839e423e5c93d8c8ade4f9969a1"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_target_texture_state_audit.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_target_texture_state_audit.py",
+      "destinationBytes": 8179,
+      "destinationSha256": "5496c26b41fbca304248ea42065f844b0f60eb78f0c25a73eed1e0ae529458cf"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_texture_image_sanity.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_texture_image_sanity.py",
+      "destinationBytes": 4955,
+      "destinationSha256": "056e9a10e7319e91c28fbac4376816fcea378b435214d50d4026a38228fdf07e"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_uv_candidate_summary.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_uv_candidate_summary.py",
+      "destinationBytes": 4886,
+      "destinationSha256": "04c342919fcf10b1dd787d14cadffc9267270369ec5b2995773252b461a29a7a"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_uv_offset_audit.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_uv_offset_audit.py",
+      "destinationBytes": 6068,
+      "destinationSha256": "a022c9e9f0c8c3845e83bf0d2835f2b992732f5f564f2426c8a18028aac760d9"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_viewport_visibility_audit.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_viewport_visibility_audit.py",
+      "destinationBytes": 3148,
+      "destinationSha256": "9c86505304e7c3f457c8a8f61d20cac983685a37887a13d9ad91987b0a24d424"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_visible_texture_audit.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_visible_texture_audit.py",
+      "destinationBytes": 4567,
+      "destinationSha256": "2bca3d0396722fae8d684e0d7b58bddf8cc783973736f5ddceca64c6e73425f3"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_visual_accuracy_1_to_6_pass.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_visual_accuracy_1_to_6_pass.py",
+      "destinationBytes": 52605,
+      "destinationSha256": "3bdfd05cdd72e96794afea8cfe5801012f94916cbb73d542e3fa403cc8734eff"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_water_decode.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_water_decode.py",
+      "destinationBytes": 16689,
+      "destinationSha256": "49b5cffc7f249ca9daa50d49601e513e62bcded998194bb4513d6b2c577213f2"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_water_exact_probe.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_water_exact_probe.py",
+      "destinationBytes": 4121,
+      "destinationSha256": "5660d35ede5a735d5b1a53c2b7fc4a83ddb42bfb54989be7654706a830345547"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_water_forced_probe.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_water_forced_probe.py",
+      "destinationBytes": 4383,
+      "destinationSha256": "2b414ddc58bade3aabb90c99dfc5d52fe67632c0bc0e6bef650c8bb764200dd1"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_water_layout_probe.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_water_layout_probe.py",
+      "destinationBytes": 14899,
+      "destinationSha256": "8129797055c14fffddbe4e8cfa4b68656f52175c9e5d374fe4eebdf48d332409"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_water_marker_probe.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_water_marker_probe.py",
+      "destinationBytes": 3296,
+      "destinationSha256": "49514d627d493abda2478b9d00ea5d76bff5d5c9cc88512a9162b5a68e31269c"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_water_mesh01_search.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_water_mesh01_search.py",
+      "destinationBytes": 4276,
+      "destinationSha256": "73e18c71ca63df0b924feca70602728da7af3528346e253ab4b7a41ee738eeaf"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_gridlock_water_v3_calm_pass.py",
+      "destination": "research/legacy-probes/gowreloaded_gridlock_water_v3_calm_pass.py",
+      "destinationBytes": 22207,
+      "destinationSha256": "563f0f913c6689061bd524e4de5cb625834a94f0929ee825409511ae444c97fa"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_horde_trace_scan.py",
+      "destination": "research/legacy-probes/gowreloaded_horde_trace_scan.py",
+      "destinationBytes": 12194,
+      "destinationSha256": "14a7596503b7afbee7e6a783fe97937215390a4f84a2254591ebd0b2c564de0b"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_make_viewport_png_aliases.py",
+      "destination": "research/legacy-probes/gowreloaded_make_viewport_png_aliases.py",
+      "destinationBytes": 3593,
+      "destinationSha256": "b798119847ed340822ac27d91082796ab2eec3040c27d7f3be70ee6408071e03"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_map_actor_property_probe.py",
+      "destination": "research/legacy-probes/gowreloaded_map_actor_property_probe.py",
+      "destinationBytes": 5565,
+      "destinationSha256": "106c648e2c82d8f14b1c2aebe5d6a4aebb72e226ace9c746f5c7a3166a10f6df"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_map_bsp_confidence.py",
+      "destination": "research/legacy-probes/gowreloaded_map_bsp_confidence.py",
+      "destinationBytes": 6508,
+      "destinationSha256": "871a3a2f427ee1764518d2067a1b318f0327627d8f12e0241fa12453b6cadeeb"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_map_clean_extract.py",
+      "destination": "research/legacy-probes/gowreloaded_map_clean_extract.py",
+      "destinationBytes": 6434,
+      "destinationSha256": "45fd72141ba6e28f211d5b03af29c105d63506efd7873f403a990c7628d6afd0"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_map_effective_transform_audit.py",
+      "destination": "research/legacy-probes/gowreloaded_map_effective_transform_audit.py",
+      "destinationBytes": 7672,
+      "destinationSha256": "2af2501b826faf74f7561c05e545c9c65e569946ff05c6d21f7c819b1bf70daf"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_map_geometry_instance_atlas.py",
+      "destination": "research/legacy-probes/gowreloaded_map_geometry_instance_atlas.py",
+      "destinationBytes": 29816,
+      "destinationSha256": "d202eb2b14671d8932074f3fa6821a098a0a6609b6d5cbe8a6855f0fb04bf9a3"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_map_heavy_parse.py",
+      "destination": "research/legacy-probes/gowreloaded_map_heavy_parse.py",
+      "destinationBytes": 11300,
+      "destinationSha256": "8b8b5330d97e3b3e75366c7fe51a813265ece0a2d189a5383a23c7ae409cc99a"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_map_material_texture_cache.py",
+      "destination": "research/legacy-probes/gowreloaded_map_material_texture_cache.py",
+      "destinationBytes": 12616,
+      "destinationSha256": "8e41644f9a415d48ef39293d1808dc938fe597ebf9bd81906f16b8efcb97133d"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_map_skeletalmesh_payload_probe.py",
+      "destination": "research/legacy-probes/gowreloaded_map_skeletalmesh_payload_probe.py",
+      "destinationBytes": 12597,
+      "destinationSha256": "471b0507ad5907b45b9880a0fc6f1d015da3f40375fc3af4170d8939dce40839"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_map_staticmesh_component_supplement.py",
+      "destination": "research/legacy-probes/gowreloaded_map_staticmesh_component_supplement.py",
+      "destinationBytes": 7404,
+      "destinationSha256": "41bef9a19fa91fc33ee2076f983e8af1222a6c41f65ac989ccda9970dbc4ab86"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_map_staticmesh_section_cache.py",
+      "destination": "research/legacy-probes/gowreloaded_map_staticmesh_section_cache.py",
+      "destinationBytes": 5094,
+      "destinationSha256": "49f7731c4a11c2312192564e48f53ef94bcb99cb417855f5bfec51a055c4bb2e"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_map_textured_staticmesh_asset_pack.py",
+      "destination": "research/legacy-probes/gowreloaded_map_textured_staticmesh_asset_pack.py",
+      "destinationBytes": 28568,
+      "destinationSha256": "1d8e7c353401a429923e6e444f2c7120ba796109d9d94f272eea0365a94a8b46"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_static_uvstream_regression_guard.py",
+      "destination": "research/legacy-probes/gowreloaded_static_uvstream_regression_guard.py",
+      "destinationBytes": 9724,
+      "destinationSha256": "7bba817fe54c51bd265f834ed49bcfeea5926965866f8bc181e69280b60fe753"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_timgad_chapter_scope_probe.py",
+      "destination": "research/legacy-probes/gowreloaded_timgad_chapter_scope_probe.py",
+      "destinationBytes": 7058,
+      "destinationSha256": "11b2cae250e9c40100819d03feb59d83fe6bb334cbf1eabedf004bc2d23912bb"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_timgad_postprocess_blend.py",
+      "destination": "research/legacy-probes/gowreloaded_timgad_postprocess_blend.py",
+      "destinationBytes": 2569,
+      "destinationSha256": "dc525920e05ab83c443ce38225f257bbb023722da7e8981072ca934a3749f80b"
+    },
+    {
+      "kind": "legacy-probe",
+      "source": "canonical-workspace/tools/gowreloaded_timgad_prepare_cached_textured_scene.py",
+      "destination": "research/legacy-probes/gowreloaded_timgad_prepare_cached_textured_scene.py",
+      "destinationBytes": 15862,
+      "destinationSha256": "1ae65deacb27d5a267d813775404a4d4b45f5b9a7d13091256fc05a171af0a9b"
+    },
+    {
+      "kind": "legacy-evidence",
+      "source": "canonical-workspace/evidence-and-reports/gow_reloaded_brumak_bridge_boundary_2026_08_10.md",
+      "destination": "evidence/legacy-snapshots/gow_reloaded_brumak_bridge_boundary_2026_08_10.md",
+      "destinationBytes": 6451,
+      "destinationSha256": "7419564b19e1d1eb115b6b555eff186a087a13e3909f3d7455949313f7376494"
+    },
+    {
+      "kind": "legacy-evidence",
+      "source": "canonical-workspace/evidence-and-reports/gow_reloaded_horde_trace_scan_2026_08_10.md",
+      "destination": "evidence/legacy-snapshots/gow_reloaded_horde_trace_scan_2026_08_10.md",
+      "destinationBytes": 1727,
+      "destinationSha256": "1a63eb4defabcba287dc75b9bc935d72520b698fa0496971d4adad9252acd027"
+    },
+    {
+      "kind": "legacy-evidence",
+      "source": "canonical-workspace/evidence-and-reports/gow_reloaded_horde_trace_scan_2026_08_10_summary.json",
+      "destination": "evidence/legacy-snapshots/gow_reloaded_horde_trace_scan_2026_08_10_summary.json",
+      "destinationBytes": 917,
+      "destinationSha256": "2c8fc9d6a0166dfd3846a2be2a0e1cc791a83635c61577e4417815fe11cd985e"
+    },
+    {
+      "kind": "legacy-evidence",
+      "source": "canonical-workspace/evidence-and-reports/gow_reloaded_timgad_b_export_2026_08_10.md",
+      "destination": "evidence/legacy-snapshots/gow_reloaded_timgad_b_export_2026_08_10.md",
+      "destinationBytes": 3348,
+      "destinationSha256": "082d01fec4b59429ba564925d94101bd8e7a3262c715ba6e635d2db9919e591b"
+    },
+    {
+      "kind": "legacy-evidence",
+      "source": "canonical-workspace/evidence-and-reports/gow_reloaded_timgad_comedy_export_2026_08_11.md",
+      "destination": "evidence/legacy-snapshots/gow_reloaded_timgad_comedy_export_2026_08_11.md",
+      "destinationBytes": 5236,
+      "destinationSha256": "e5cba295ba1c1a348190f85f1c654e82ee7f885b9d8f86a3723d455757269156"
+    },
+    {
+      "kind": "legacy-evidence",
+      "source": "canonical-workspace/evidence-and-reports/gow_reloaded_timgad_impasse_export_2026_08_10.md",
+      "destination": "evidence/legacy-snapshots/gow_reloaded_timgad_impasse_export_2026_08_10.md",
+      "destinationBytes": 2757,
+      "destinationSha256": "5f205d1a4691c1d3cb83f1b1f0d4fa04584f5f5bfc4aa63c97feb5a4cf22e78a"
+    }
+  ]
+}

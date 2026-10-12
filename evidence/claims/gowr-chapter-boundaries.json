@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "gowr-chapter-boundaries",
+  "revision": 1,
+  "state": "decoded",
+  "confidence": "high",
+  "scope": { "game": "gears-of-war-reloaded", "platform": "pc-steam-build-20087529", "build": null, "maps": ["SP_Timgad", "SP_Timgad_B", "SP_OldEphyra_S06GasStation", "SP_Viaducts"] },
+  "claim": "Package families, Kismet chapter enums, localized titles, checkpoints, and PrepareMapChange targets distinguish Timgad, Old Ephyra, and Viaducts chapter boundaries; the final Timgad Brumak kill is JURASSIC PROPORTIONS, not POWDER KEG.",
+  "evidence": [{ "kind": "legacy-evidence", "ref": "evidence/legacy-snapshots/gow_reloaded_brumak_bridge_boundary_2026_08_10.md" }, { "kind": "curated-knowledge", "ref": "knowledge/maps/chapter-boundaries.md" }],
+  "limitations": ["This is chapter-identity and handoff proof, not a complete runtime streaming timeline."]
+}

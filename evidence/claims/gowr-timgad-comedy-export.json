@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "gowr-timgad-comedy-export",
+  "revision": 1,
+  "state": "observed",
+  "confidence": "high",
+  "scope": { "game": "gears-of-war-reloaded", "platform": "pc-steam-build-20087529", "build": null, "maps": ["SP_Timgad_A", "COMEDY OF ERRORS"] },
+  "claim": "The historical COMEDY OF ERRORS pass parsed 29 of 29 staged packages, decoded 2,395 StaticMesh assets, created 17,580 StaticMesh placements and 5 visible BSP shells, and render-validated a textured Blender scene.",
+  "evidence": [{ "kind": "legacy-evidence", "ref": "evidence/legacy-snapshots/gow_reloaded_timgad_comedy_export_2026_08_11.md" }],
+  "limitations": ["Six unique StaticMesh references and 57 placements remained unresolved.", "BSP materials and exact runtime streaming order were incomplete.", "The historical heavy parser is currently unavailable."]
+}

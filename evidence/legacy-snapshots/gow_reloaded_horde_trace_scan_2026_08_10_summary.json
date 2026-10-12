@@ -1,0 +1,21 @@
+{
+  "install_root": "D:\\SteamLibrary\\steamapps\\common\\Gears of War Reloaded",
+  "filename_hits": 0,
+  "packages_scanned": 6,
+  "package_name_hits": 0,
+  "package_exact_horde_name_hits": 0,
+  "package_import_hits": 0,
+  "package_export_hits": 0,
+  "physical_file_horde_offsets": 2,
+  "rebuilt_virtual_horde_offsets": 2,
+  "localization_hits": 424,
+  "config_hits": 0,
+  "assessment": "no_horde_mode_evidence",
+  "notes": [
+    "A bare HORDE name in WarfareGame.u is a trace, but not enough by itself to prove a shipped/planned Horde mode.",
+    "No Horde-named files were found under the install root.",
+    "Localization hits are mostly Myrrah/Locust Horde lore or bios, not playlist/menu/mode strings.",
+    "No imports/exports matched HordeMode, HordeGame, GameInfo_Horde, HordeWave, WaveManager, WaveSpawner, SurvivalMode, CoopWave, or WaveBased in the scanned core packages."
+  ],
+  "likely_lore_only": true
+}

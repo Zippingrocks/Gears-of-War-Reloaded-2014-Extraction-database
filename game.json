@@ -1,0 +1,19 @@
+{
+  "$schema": "schemas/game.schema.json",
+  "id": "gears-of-war-reloaded",
+  "title": "Gears of War: Reloaded",
+  "releaseYear": 2025,
+  "repositoryStatus": "research",
+  "engineFamily": "Unreal Engine 3-derived cooked package format",
+  "platforms": [
+    {
+      "id": "pc-steam-build-20087529",
+      "displayName": "Windows PC Steam",
+      "steamAppId": 2523720,
+      "buildId": "20087529",
+      "executableVersion": "1.0.381.6947",
+      "status": "research",
+      "anchorMap": "WarGame/CookedPC/Maps/MP_Maps/MP_Gridlock.war"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+# Native game data
+*.war
+*.upk
+*.tfc
+*.bik
+*.udk
+*.u
+*.dll
+*.exe
+
+# Extracted and generated payloads
+*.blend
+*.blend1
+*.fbx
+*.glb
+*.gltf
+*.obj
+*.mtl
+*.psk
+*.pskx
+*.dds
+*.tga
+*.png
+*.jpg
+*.jpeg
+*.wav
+*.mp4
+*.wmv
+
+# Build and editor output
+**/__pycache__/
+*.pyc
+.pytest_cache/
+.vs/
+.vscode/
+out/
+exports/
+scratch/
+*.user
+*.suo
+
+# Machine-local configuration
+.env
+local.json
+paths.local.json

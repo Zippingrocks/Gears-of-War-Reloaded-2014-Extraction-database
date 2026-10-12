@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "gowr-timgad-impasse-export",
+  "revision": 1,
+  "state": "observed",
+  "confidence": "high",
+  "scope": { "game": "gears-of-war-reloaded", "platform": "pc-steam-build-20087529", "build": null, "maps": ["SP_Timgad_A", "IMPASSE"] },
+  "claim": "The historical IMPASSE pilot decoded 3,873 StaticMesh assets, prepared 2,014 of 2,021 unique placed paths, created 26,754 StaticMesh placements and 9 BSP shells, and retained 68 unresolved placement references.",
+  "evidence": [{ "kind": "legacy-evidence", "ref": "evidence/legacy-snapshots/gow_reloaded_timgad_impasse_export_2026_08_10.md" }],
+  "limitations": ["Seven unique StaticMesh references remained unresolved.", "BSP materials and a pure chapter-only streaming cut were incomplete.", "The historical heavy parser is currently unavailable."]
+}

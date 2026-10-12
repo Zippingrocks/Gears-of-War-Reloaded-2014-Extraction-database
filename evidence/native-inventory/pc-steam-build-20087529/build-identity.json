@@ -1,0 +1,17 @@
+{
+  "schema": "gowr_build_identity_v1",
+  "title": "Gears of War: Reloaded",
+  "releaseDate": "2025-08-26",
+  "releaseSource": "https://store.steampowered.com/app/2523720/Gears_of_War_Reloaded/",
+  "steamAppId": 2523720,
+  "steamBuildId": "20087529",
+  "steamDepotId": "2523721",
+  "steamDepotManifest": "2156965768602915417",
+  "installSizeBytes": 76345902085,
+  "executableRelativePath": "Binaries_x64/GOWDE-Steam.exe",
+  "executableBytes": 26278928,
+  "executableFileVersion": "1.0.381.6947",
+  "executableProductVersion": "1.0.381.6947",
+  "nativeContentRoot": "WarGame",
+  "cookedPackageRoot": "WarGame/CookedPC"
+}

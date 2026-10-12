@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "gowr-steam-build-identity",
+  "revision": 1,
+  "state": "validated",
+  "confidence": "high",
+  "scope": { "game": "gears-of-war-reloaded", "platform": "pc-steam-build-20087529", "build": "20087529", "root": "WarGame" },
+  "claim": "The recorded Windows PC source is Steam app 2523720, build 20087529, with GOWDE-Steam.exe version 1.0.381.6947 and a 2025 release identity.",
+  "evidence": [{ "kind": "native-metadata", "ref": "evidence/native-inventory/pc-steam-build-20087529/build-identity.json" }],
+  "limitations": ["This identity applies only to the recorded installed build."]
+}

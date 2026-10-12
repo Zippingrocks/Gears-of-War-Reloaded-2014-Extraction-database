@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "gowr-timgad-b-export",
+  "revision": 1,
+  "state": "observed",
+  "confidence": "high",
+  "scope": { "game": "gears-of-war-reloaded", "platform": "pc-steam-build-20087529", "build": null, "maps": ["SP_Timgad_B", "WINDOW SHOPPING", "POWERS THAT BE", "JURASSIC PROPORTIONS"] },
+  "claim": "The historical Timgad B pass parsed 43 of 43 packages, decoded 2,905 StaticMesh assets, created 19,322 StaticMesh placements and 13 visible BSP shells, and render-validated a textured Blender scene.",
+  "evidence": [{ "kind": "legacy-evidence", "ref": "evidence/legacy-snapshots/gow_reloaded_timgad_b_export_2026_08_10.md" }],
+  "limitations": ["Four unique StaticMesh references and 29 placements remained unresolved.", "The export is a three-chapter package-family scene, not a pure chapter cut.", "BSP materials remain incomplete."]
+}

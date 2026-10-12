@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "gowr-staticmesh-uvstream",
+  "revision": 1,
+  "state": "validated",
+  "confidence": "high",
+  "scope": { "game": "gears-of-war-reloaded", "platform": "pc-steam-build-20087529", "build": null, "maps": ["MP_Gridlock"] },
+  "claim": "Reloaded StaticMesh UV payload and channel offsets must be derived from UE3 stream metadata; the former fixed-offset path is invalid for ordinary Gridlock bulk rows.",
+  "evidence": [{ "kind": "maintained-regression-guard", "ref": "src/gowreloaded_static_uvstream_regression_guard.py" }, { "kind": "curated-knowledge", "ref": "knowledge/formats/staticmesh-uv.md" }],
+  "limitations": ["Inline proxy, card, decal, and other non-bulk layouts remain separate decode lanes."]
+}

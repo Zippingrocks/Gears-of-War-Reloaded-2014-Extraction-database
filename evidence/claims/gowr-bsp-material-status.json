@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "gowr-bsp-material-status",
+  "revision": 1,
+  "state": "observed",
+  "confidence": "high",
+  "scope": { "game": "gears-of-war-reloaded", "platform": "pc-steam-build-20087529", "build": null, "maps": ["SP_Timgad_A", "SP_Timgad_B"] },
+  "claim": "Native BSP Model faces were decoded and selected into visible shell geometry in prior Timgad scenes, but native BSP material-slot and texture binding was not completed.",
+  "evidence": [{ "kind": "legacy-evidence", "ref": "evidence/legacy-snapshots/gow_reloaded_timgad_comedy_export_2026_08_11.md" }, { "kind": "legacy-evidence", "ref": "evidence/legacy-snapshots/gow_reloaded_timgad_b_export_2026_08_10.md" }],
+  "limitations": ["Visible-shell filtering does not prove all BSP geometry or collision/helper exclusions."]
+}

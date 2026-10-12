@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "gowr-full-export-reproducibility",
+  "revision": 1,
+  "state": "observed",
+  "confidence": "high",
+  "scope": { "game": "gears-of-war-reloaded", "platform": "pc-steam-build-20087529", "build": null, "root": "repository toolchain" },
+  "claim": "The surviving repository cannot currently reproduce a full native Reloaded map export because legacy wrappers depend on an absent shared heavy parser; package inspection, UV validation, and decoded-cache packaging remain independently usable.",
+  "evidence": [{ "kind": "curated-status", "ref": "knowledge/project-status.md" }, { "kind": "legacy-wrapper", "ref": "research/legacy-probes/gowreloaded_map_heavy_parse.py" }, { "kind": "maintained-source-index", "ref": "src/README.md" }],
+  "limitations": ["A trustworthy parser copy may still exist outside the currently mounted canonical workspace."]
+}

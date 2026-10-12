@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "gowr-package-header",
+  "revision": 1,
+  "state": "validated",
+  "confidence": "high",
+  "scope": { "game": "gears-of-war-reloaded", "platform": "pc-steam-build-20087529", "build": "20087529", "packages": ["CookedPC/Maps/MP_Maps/MP_Gridlock.war", "CookedPC/Maps/SP_Timgad/SP_Timgad_P.war", "CookedPC/Maps/SP_Prison/SP_Prison_P.war"] },
+  "claim": "Sampled Reloaded map packages use Unreal package tag 0x9E2A83C1, file version 835, licensee version 76, and expose bounded name, export, import, and dependency table metadata in the package summary.",
+  "evidence": [{ "kind": "maintained-parser", "ref": "src/reloaded_package.py" }, { "kind": "generated-native-inventory", "ref": "evidence/native-inventory/pc-steam-build-20087529/native-inventory.json" }],
+  "limitations": ["Package-summary parsing does not decode compressed object payloads."]
+}

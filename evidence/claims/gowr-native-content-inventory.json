@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "gowr-native-content-inventory",
+  "revision": 1,
+  "state": "observed",
+  "confidence": "high",
+  "scope": { "game": "gears-of-war-reloaded", "platform": "pc-steam-build-20087529", "build": "20087529", "root": "WarGame" },
+  "claim": "The recorded native content root contains 1,859 WAR packages, 566 UPK packages, 68 TFC caches, and 113 BIK videos, totaling 74,256,775,264 bytes.",
+  "evidence": [{ "kind": "generated-native-inventory", "ref": "evidence/native-inventory/pc-steam-build-20087529/native-inventory.json" }],
+  "limitations": ["Only the four extraction-relevant suffix families are counted.", "Payload files are not stored in Git."]
+}
